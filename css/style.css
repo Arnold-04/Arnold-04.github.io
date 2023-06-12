@@ -1,0 +1,122 @@
+*{
+    /* border-box:box sizing; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.subH {
+    border: 2px solid black;
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    margin: 0; 
+    position: absolute  ;
+    top: 0;
+    right: 0;
+
+}
+
+.one{
+    background-color: deeppink;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: lightcoral;
+}
+
+/* .subH:nth-child(1){
+    background-color: gray;
+} */
+
+.sections {
+
+    height: 80vh;
+    position: relative;   
+
+}
+
+.sections p{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section1, .section2, .section3{
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+    width: 29%;
+    text-align: justify;
+    float: left;
+    background-color: lightgray;
+    position: relative;
+}
+
+@media screen and (min-width: 1200px){
+
+.section1, .section2, .section3{
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+    width: 29%;
+    text-align: justify;
+    float: left;
+}
+}
+@media screen and (max-width: 991px){
+
+.section1, .section2{
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+    width: 45%;
+    text-align: justify; 
+    float:left;
+}
+
+.section3 {
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+    width: fit-content;
+}
+}
+
+@media screen and (max-width: 991px){
+    .section1, .section2{
+        margin: 1%;
+        padding: 1%;
+        border: 2px solid black;
+        width: 45%;
+        text-align: justify; 
+        float:left;
+    }
+    
+    .section3 {
+        margin: 1%;
+        padding: 1%;
+        border: 2px solid black;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section1{
+        width: 100%;
+        position: relative;
+    }
+    .section2{
+        width: 100%;
+    }
+    .section3{
+        width: 100%;
+    }
+    
+}
+
+
+
